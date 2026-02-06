@@ -52,7 +52,7 @@ export default function VendingFountainApp() {
             </div>
 
             <button onClick={() => setScreen('fountain')} className="w-full flex items-center p-6 bg-white rounded-2xl shadow-sm border-l-8 border-blue-500 active:bg-gray-50">
-              <div className="bg-blue-100 p-3 rounded-full mr-4"><Beverage className="text-blue-600" /></div>
+              <div className="bg-blue-100 p-3 rounded-full mr-4"><Coffee className="text-blue-600" /></div>
               <div className="text-left"><h2 className="font-bold text-lg">Fountain Service</h2><p className="text-sm text-gray-500">Lancer, Cornelius, Multiplex</p></div>
             </button>
 
