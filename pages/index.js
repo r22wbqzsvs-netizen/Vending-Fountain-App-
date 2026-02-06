@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Search, Beverage, Settings, ArrowLeft, Tool, AlertTriangle, Phone, Package, ThermometerSnowflake } from 'lucide-react';
-
+import { Search, Coffee, Settings, ArrowLeft, Tool, AlertTriangle, Phone, Package, ThermometerSnowflake } from 'lucide-react';
 export default function VendingFountainApp() {
   const [screen, setScreen] = useState('home');
   const [search, setSearch] = useState('');
